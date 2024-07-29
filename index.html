@@ -1,51 +1,100 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Bootstrap</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="barra-navegacion">
-            <nav class="navbar bg-dark border-bottom navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/scpindex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="barra-navegacion">
+        <nav class="navbar border-bottom navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Mi Sitio Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                      </li>
-                      
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Disabled</a>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
+
                 </div>
-              </nav>
-        </div>
-        <h1>
-            Mi página con Bootstrap
-        </h1>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic in architecto incidunt nesciunt pariatur fugiat excepturi ad, doloremque minima animi cumque quasi. Reiciendis ab recusandae est assumenda! Corrupti, nam quos?
-        </p>
-        <script src="" async defer></script>
-    </body>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <section>
+            <div class="card text-bg-warning">
+                <div class="card-body">
+                    <h2 class="card-title">
+                        Bienvenido a mi primera página web
+                    </h2>
+                    <p>
+                        Esta es una página web sencilla creada con html, CSS y Bootstrap.
+                    </p>
+                    <hr>
+                    <p id="head-text">Aprende mas sobre como crear páginas web con el boton de abajo</p>
+                    <a href="#" class="btn btn-primary">Aprende más</a>
+                </div>
+            </div>
+        </section>
+        <section id="mis-paginas">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-0">
+                        <img src="img/Captura de pantalla 2024-07-29 124944.png" class="card-img-top" alt="Mi curriculum">
+                        <div class="card-body">
+                            <h2 class="card-title">HTML</h2>
+                            <p class="card-text">
+                                Html es un lenguaje de marcado estandar para crear páginas web.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-0">
+                        <img src="img/comi.png" class="card-img-top" alt="Mi curriculum">
+                        <div class="card-body">
+                            <h2 class="card-title">CSS</h2>
+                            <p class="card-text">
+                                CSS es lunguaje que usamos para estilizar una página web.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-0">
+                        <img src="img/cafes.png" class="card-img-top" alt="Mi curriculum">
+                        <div class="card-body">
+                            <h2 class="card-title">Bootstrap</h2>
+                            <p class="card-text">
+                                Bootstrap es un framework de css que facilita el diseño web responsive.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+
 </html>

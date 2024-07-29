@@ -1,0 +1,26 @@
+.barra-navegacion nav{
+    padding-left: 15%;
+}
+main{
+    margin: 0% 15% 0 15%; 
+}
+#head-text{
+    font-size: 12pt;
+}
+#head-text{
+    font-size: 10pt;
+}
+.card-text{
+    font-size: 10pt;
+}
+section{
+    margin-top: 2%;
+}
+button{
+    text-decoration: none;
+    background-color: white;
+    border: none;
+}
+#mis-paginas{
+    height: 300px;
+}
